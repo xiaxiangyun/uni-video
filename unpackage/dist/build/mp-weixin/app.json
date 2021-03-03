@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/video/index",
+    "pages/video/play",
+    "pages/movie/index",
+    "pages/movie/play"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "枇杷短视频",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/video/index",
+        "iconPath": "static/homepage.png",
+        "selectedIconPath": "static/homepage_on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/movie/index",
+        "iconPath": "static/find.png",
+        "selectedIconPath": "static/find_on.png",
+        "text": "影视剧"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
